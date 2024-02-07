@@ -1,0 +1,315 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Jan 21 22:54:36 2024
+# Process ID: 10104
+# Current directory: C:/Xilinx/SST/final_project/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log TOP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TOP.tcl
+# Log file: C:/Xilinx/SST/final_project/project_1/project_1.runs/synth_1/TOP.vds
+# Journal file: C:/Xilinx/SST/final_project/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source TOP.tcl -notrace
+Command: synth_design -top TOP -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 17788
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1030.328 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'TOP' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/TOP.v:3]
+INFO: [Synth 8-6157] synthesizing module 'CU' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/CU.v:3]
+WARNING: [Synth 8-151] case item 6'b100110 is unreachable [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/CU.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'CU' (1#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/CU.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:3]
+INFO: [Synth 8-6157] synthesizing module 'AND' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'AND' (2#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:28]
+INFO: [Synth 8-6157] synthesizing module 'XOR' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'XOR' (3#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:35]
+INFO: [Synth 8-6157] synthesizing module 'ADD' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:49]
+INFO: [Synth 8-6155] done synthesizing module 'ADD' (4#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:49]
+INFO: [Synth 8-6157] synthesizing module 'CLS' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'CLS' (5#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:57]
+INFO: [Synth 8-6157] synthesizing module 'ZC' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:64]
+INFO: [Synth 8-6155] done synthesizing module 'ZC' (6#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:64]
+INFO: [Synth 8-6157] synthesizing module 'MUX_R' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:71]
+INFO: [Synth 8-226] default block is never used [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:77]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_R' (7#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:71]
+INFO: [Synth 8-6157] synthesizing module 'MUX_OUT' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:87]
+INFO: [Synth 8-226] default block is never used [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:93]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_OUT' (8#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:87]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (9#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:3]
+INFO: [Synth 8-6157] synthesizing module 'RB' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:3]
+INFO: [Synth 8-6157] synthesizing module 'REGISTER' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'REGISTER' (10#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:65]
+INFO: [Synth 8-6157] synthesizing module 'DECODER' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:81]
+INFO: [Synth 8-226] default block is never used [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:91]
+WARNING: [Synth 8-567] referenced signal 'sel' should be on the sensitivity list [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:86]
+INFO: [Synth 8-6155] done synthesizing module 'DECODER' (11#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:81]
+INFO: [Synth 8-6157] synthesizing module 'MUX_INADD' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:113]
+INFO: [Synth 8-226] default block is never used [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:119]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_INADD' (12#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:113]
+INFO: [Synth 8-6157] synthesizing module 'MUX_OUTADD' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:133]
+INFO: [Synth 8-226] default block is never used [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:139]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_OUTADD' (13#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:133]
+INFO: [Synth 8-6155] done synthesizing module 'RB' (14#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'TOP' (15#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/TOP.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1030.328 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1030.328 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1030.328 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1030.328 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Xilinx/SST/final_project/project_1/Nexys-A7-100T-Master.xdc]
+Finished Parsing XDC File [C:/Xilinx/SST/final_project/project_1/Nexys-A7-100T-Master.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1067.707 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1067.707 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1067.707 ; gain = 37.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1067.707 ; gain = 37.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1067.707 ; gain = 37.379
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'CU'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE1 |                           000000 |                           000000
+                 iSTATE0 |                           000001 |                           000001
+                  iSTATE |                           000010 |                           000010
+                iSTATE37 |                           000011 |                           000011
+                iSTATE28 |                           000100 |                           000100
+                iSTATE26 |                           000101 |                           000101
+                iSTATE22 |                           000110 |                           000111
+                iSTATE27 |                           000111 |                           001000
+                iSTATE25 |                           001000 |                           001001
+                iSTATE23 |                           001001 |                           001010
+                iSTATE20 |                           001010 |                           001011
+                iSTATE17 |                           001011 |                           001100
+                iSTATE16 |                           001100 |                           001101
+                iSTATE15 |                           001101 |                           001110
+                iSTATE12 |                           001110 |                           001111
+                iSTATE24 |                           001111 |                           010000
+                iSTATE21 |                           010000 |                           010001
+                iSTATE19 |                           010001 |                           010010
+                iSTATE18 |                           010010 |                           010011
+                iSTATE13 |                           010011 |                           010100
+                iSTATE10 |                           010100 |                           010101
+                 iSTATE6 |                           010101 |                           010110
+                 iSTATE4 |                           010110 |                           010111
+                iSTATE11 |                           010111 |                           011000
+                 iSTATE8 |                           011000 |                           011001
+                 iSTATE5 |                           011001 |                           011010
+                 iSTATE2 |                           011010 |                           011011
+                iSTATE35 |                           011011 |                           011100
+                iSTATE33 |                           011100 |                           011101
+                iSTATE30 |                           011101 |                           011110
+                iSTATE29 |                           011110 |                           011111
+                iSTATE14 |                           011111 |                           100000
+                 iSTATE9 |                           100000 |                           100001
+                 iSTATE7 |                           100001 |                           100010
+                 iSTATE3 |                           100010 |                           100011
+                iSTATE36 |                           100011 |                           100100
+                iSTATE34 |                           100100 |                           100101
+                iSTATE32 |                           100101 |                           100110
+                iSTATE31 |                           100110 |                           100111
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'CU'
+WARNING: [Synth 8-327] inferring latch for variable 'out_reg' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:88]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1067.707 ; gain = 37.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    9 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 8     
++---Registers : 
+	                8 Bit    Registers := 17    
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	  39 Input    8 Bit        Muxes := 1     
+	   4 Input    8 Bit        Muxes := 1     
+	  39 Input    6 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 6     
+	   2 Input    4 Bit        Muxes := 1     
+	  39 Input    4 Bit        Muxes := 1     
+	  39 Input    3 Bit        Muxes := 1     
+	  39 Input    2 Bit        Muxes := 1     
+	  39 Input    1 Bit        Muxes := 6     
+	   4 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1067.707 ; gain = 37.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1067.707 ; gain = 37.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1067.707 ; gain = 37.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1089.492 ; gain = 59.164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1089.492 ; gain = 59.164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1089.492 ; gain = 59.164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1089.492 ; gain = 59.164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1089.492 ; gain = 59.164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1089.492 ; gain = 59.164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1089.492 ; gain = 59.164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     3|
+|3     |LUT1   |     1|
+|4     |LUT2   |    31|
+|5     |LUT3   |     9|
+|6     |LUT4   |    24|
+|7     |LUT5   |    14|
+|8     |LUT6   |    86|
+|9     |MUXF7  |    24|
+|10    |MUXF8  |     8|
+|11    |FDCE   |   134|
+|12    |FDRE   |    10|
+|13    |LDC    |    16|
+|14    |IBUF   |    19|
+|15    |OBUF   |     9|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1089.492 ; gain = 59.164
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 1089.492 ; gain = 21.785
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1089.492 ; gain = 59.164
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1099.883 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 51 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1099.934 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 16 instances were transformed.
+  LDC => LDCE: 16 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+51 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 1099.934 ; gain = 69.605
+INFO: [Common 17-1381] The checkpoint 'C:/Xilinx/SST/final_project/project_1/project_1.runs/synth_1/TOP.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file TOP_utilization_synth.rpt -pb TOP_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Jan 21 22:55:13 2024...

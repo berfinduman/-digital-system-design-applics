@@ -1,0 +1,25 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SST/week8/project_1/project_1.srcs/sources_1/new/exp_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multb
+INFO: [VRFC 10-311] analyzing module adderb
+INFO: [VRFC 10-311] analyzing module MAC
+INFO: [VRFC 10-311] analyzing module MAC_Normalize
+INFO: [VRFC 10-311] analyzing module CONV
+INFO: [VRFC 10-311] analyzing module CONV128
+INFO: [VRFC 10-311] analyzing module control_input
+INFO: [VRFC 10-311] analyzing module output_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SST/week8/project_1/project_1.ip_user_files/bd/bram1/ip/bram1_blk_mem_gen_0_0/sim/bram1_blk_mem_gen_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bram1_blk_mem_gen_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SST/week8/project_1/project_1.ip_user_files/bd/bram1/ip/bram1_control_input_0_0/sim/bram1_control_input_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bram1_control_input_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SST/week8/project_1/project_1.ip_user_files/bd/bram1/ip/bram1_CONV128_0_0/sim/bram1_CONV128_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bram1_CONV128_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SST/week8/project_1/project_1.ip_user_files/bd/bram1/ip/bram1_output_control_0_0/sim/bram1_output_control_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bram1_output_control_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SST/week8/project_1/project_1.ip_user_files/bd/bram1/ip/bram1_blk_mem_gen_1_0/sim/bram1_blk_mem_gen_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bram1_blk_mem_gen_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SST/week8/project_1/project_1.ip_user_files/bd/bram1/sim/bram1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bram1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SST/week8/project_1/project_1.srcs/sources_1/new/TOP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TOP
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SST/week8/project_1/project_1.srcs/sim_1/new/top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb

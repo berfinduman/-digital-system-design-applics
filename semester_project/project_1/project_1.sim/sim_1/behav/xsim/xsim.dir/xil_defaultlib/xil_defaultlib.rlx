@@ -1,0 +1,10 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Xilinx/SST/semester_project/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Xilinx/SST/semester_project/project_1/project_1.srcs/sim_1/new/cond_sum_tb.v,1702240143,verilog,,,,cond_sum_tb,,,,,,,,
+C:/Xilinx/SST/semester_project/project_1/project_1.srcs/sources_1/imports/SSTU/week2/project_1/project_1.srcs/sources_1/new/MSI_Library.v,1699447080,verilog,,C:/Xilinx/SST/semester_project/project_1/project_1.srcs/sources_1/imports/SSTU/week4/project_1/project_1.srcs/sources_1/new/arithmetic_circuits.v,,DECODER;DEMULTIPLEXER;ENCODER;MULTIPLEXER,,,,,,,,
+C:/Xilinx/SST/semester_project/project_1/project_1.srcs/sources_1/imports/SSTU/week4/project_1/project_1.srcs/sources_1/new/arithmetic_circuits.v,1700689548,verilog,,C:/Xilinx/SST/semester_project/project_1/project_1.srcs/sources_1/new/fourBcond.v,,Add_Sub;CLA;FA;HA;RCA;parametric_RCA,,,,,,,,
+C:/Xilinx/SST/semester_project/project_1/project_1.srcs/sources_1/new/Cond_Sum_Adder.v,1702239232,verilog,,C:/Xilinx/SST/semester_project/project_1/project_1.srcs/sources_1/imports/SSTU/week4/project_1/project_1.srcs/sources_1/new/arithmetic_circuits.v,,Cond_Sum_Adder,,,,,,,,
+C:/Xilinx/SST/semester_project/project_1/project_1.srcs/sources_1/new/fourBcond.v,1702239237,verilog,,C:/Xilinx/SST/semester_project/project_1/project_1.srcs/sim_1/new/cond_sum_tb.v,,fourBcond,,,,,,,,

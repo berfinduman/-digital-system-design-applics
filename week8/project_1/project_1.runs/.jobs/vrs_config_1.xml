@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="bram1_blk_mem_gen_0_0_synth_1" LaunchDir="C:/Xilinx/SST/week8/project_1/project_1.runs/bram1_blk_mem_gen_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bram1_control_input_0_0_synth_1" LaunchDir="C:/Xilinx/SST/week8/project_1/project_1.runs/bram1_control_input_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bram1_CONV128_0_0_synth_1" LaunchDir="C:/Xilinx/SST/week8/project_1/project_1.runs/bram1_CONV128_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bram1_output_control_0_0_synth_1" LaunchDir="C:/Xilinx/SST/week8/project_1/project_1.runs/bram1_output_control_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bram1_blk_mem_gen_1_0_synth_1" LaunchDir="C:/Xilinx/SST/week8/project_1/project_1.runs/bram1_blk_mem_gen_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Xilinx/SST/week8/project_1/project_1.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="bram1_blk_mem_gen_0_0_synth_1"/>
+		<Parent Id="bram1_control_input_0_0_synth_1"/>
+		<Parent Id="bram1_CONV128_0_0_synth_1"/>
+		<Parent Id="bram1_output_control_0_0_synth_1"/>
+		<Parent Id="bram1_blk_mem_gen_1_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

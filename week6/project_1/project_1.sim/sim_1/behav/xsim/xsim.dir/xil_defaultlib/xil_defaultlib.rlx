@@ -1,0 +1,10 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Xilinx/SST/week6/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Xilinx/SST/week6/project_1/project_1.srcs/sim_1/new/FSM3_TB.v,1702539264,verilog,,C:/Xilinx/SST/week6/project_1/project_1.srcs/sources_1/new/FSM1.v,,detect_tb,,,,,,,,
+C:/Xilinx/SST/week6/project_1/project_1.srcs/sim_1/new/fsm1_tb.v,1702537708,verilog,,,,FSM_tb,,,,,,,,
+C:/Xilinx/SST/week6/project_1/project_1.srcs/sources_1/new/FSM1.v,1702526306,verilog,,C:/Xilinx/SST/week6/project_1/project_1.srcs/sources_1/new/FSM2.v,,FSM1,,,,,,,,
+C:/Xilinx/SST/week6/project_1/project_1.srcs/sources_1/new/FSM2.v,1702525739,verilog,,C:/Xilinx/SST/week6/project_1/project_1.srcs/sources_1/new/detecs.v,,FSM2,,,,,,,,
+C:/Xilinx/SST/week6/project_1/project_1.srcs/sources_1/new/detecs.v,1702539329,verilog,,C:/Xilinx/SST/week6/project_1/project_1.srcs/sim_1/new/FSM3_TB.v,,detect,,,,,,,,

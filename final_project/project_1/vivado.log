@@ -1,0 +1,95 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Jan 21 17:46:16 2024
+# Process ID: 18292
+# Current directory: C:/Xilinx/SST/final_project/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5128 C:\Xilinx\SST\final_project\project_1\project_1.xpr
+# Log file: C:/Xilinx/SST/final_project/project_1/vivado.log
+# Journal file: C:/Xilinx/SST/final_project/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Xilinx/SST/final_project/project_1/project_1.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Xilinx/SSTU/final_project/project_1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:09 . Memory (MB): peak = 1024.766 ; gain = 0.000
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: TOP
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1321.133 ; gain = 240.711
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'TOP' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/TOP.v:3]
+INFO: [Synth 8-6157] synthesizing module 'CU' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/CU.v:3]
+WARNING: [Synth 8-151] case item 6'b100110 is unreachable [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/CU.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'CU' (1#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/CU.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:3]
+INFO: [Synth 8-6157] synthesizing module 'AND' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'AND' (2#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:28]
+INFO: [Synth 8-6157] synthesizing module 'XOR' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'XOR' (3#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:35]
+INFO: [Synth 8-6157] synthesizing module 'ADD' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:49]
+INFO: [Synth 8-6155] done synthesizing module 'ADD' (4#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:49]
+INFO: [Synth 8-6157] synthesizing module 'CLS' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'CLS' (5#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:57]
+INFO: [Synth 8-6157] synthesizing module 'ZC' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:64]
+INFO: [Synth 8-6155] done synthesizing module 'ZC' (6#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:64]
+INFO: [Synth 8-6157] synthesizing module 'MUX_R' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:71]
+INFO: [Synth 8-226] default block is never used [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:77]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_R' (7#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:71]
+INFO: [Synth 8-6157] synthesizing module 'MUX_OUT' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:87]
+INFO: [Synth 8-226] default block is never used [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:93]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_OUT' (8#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:87]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (9#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/ALU.v:3]
+INFO: [Synth 8-6157] synthesizing module 'RB' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:3]
+INFO: [Synth 8-6157] synthesizing module 'REGISTER' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'REGISTER' (10#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:65]
+INFO: [Synth 8-6157] synthesizing module 'DECODER' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:81]
+INFO: [Synth 8-226] default block is never used [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:91]
+WARNING: [Synth 8-567] referenced signal 'sel' should be on the sensitivity list [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:86]
+INFO: [Synth 8-6155] done synthesizing module 'DECODER' (11#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:81]
+INFO: [Synth 8-6157] synthesizing module 'MUX_INADD' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:113]
+INFO: [Synth 8-226] default block is never used [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:119]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_INADD' (12#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:113]
+INFO: [Synth 8-6157] synthesizing module 'MUX_OUTADD' [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:133]
+INFO: [Synth 8-226] default block is never used [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:139]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_OUTADD' (13#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:133]
+INFO: [Synth 8-6155] done synthesizing module 'RB' (14#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/RB.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'TOP' (15#1) [C:/Xilinx/SST/final_project/project_1/project_1.srcs/sources_1/new/TOP.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1396.891 ; gain = 316.469
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1396.891 ; gain = 316.469
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1396.891 ; gain = 316.469
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1396.891 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1496.980 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 1533.676 ; gain = 453.254
+39 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1533.676 ; gain = 509.102

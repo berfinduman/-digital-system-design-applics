@@ -1,0 +1,12 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Xilinx/SST/week4/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Xilinx/SST/week4/project_1/project_1.srcs/sim_1/new/ad_sub_tb.v,1700689711,verilog,,,,ASC_tb,,,,,,,,
+C:/Xilinx/SST/week4/project_1/project_1.srcs/sim_1/new/cla_allbitstb.v,1700686510,verilog,,,,CLA_tb,,,,,,,,
+C:/Xilinx/SST/week4/project_1/project_1.srcs/sim_1/new/fa_tb.v,1700654279,verilog,,,,FA_tb,,,,,,,,
+C:/Xilinx/SST/week4/project_1/project_1.srcs/sim_1/new/ha_tb.v,1700312475,verilog,,,,HA_tb,,,,,,,,
+C:/Xilinx/SST/week4/project_1/project_1.srcs/sim_1/new/rca8p_tb.v,1700716053,verilog,,,,RCA_tb2,,,,,,,,
+C:/Xilinx/SST/week4/project_1/project_1.srcs/sim_1/new/rpa_tb.v,1700899794,verilog,,,,RCA_tb,,,,,,,,
+C:/Xilinx/SST/week4/project_1/project_1.srcs/sources_1/new/arithmetic_circuits.v,1700723193,verilog,,C:/Xilinx/SST/week4/project_1/project_1.srcs/sim_1/new/rpa_tb.v,,Add_Sub;CLA;FA;HA;RCA;parametric_RCA,,,,,,,,

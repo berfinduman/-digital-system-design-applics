@@ -1,0 +1,10 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Xilinx/SST/week7/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Xilinx/SST/week7/project_1/project_1.srcs/sim_1/new/conv_tb.v,1703107057,verilog,,,,conv_tb,,,,,,,,
+C:/Xilinx/SST/week7/project_1/project_1.srcs/sim_1/new/mac_tb.v,1703113976,verilog,,,,mac_tb,,,,,,,,
+C:/Xilinx/SST/week7/project_1/project_1.srcs/sim_1/new/mults_signed_tb.v,1703112831,verilog,,,,mults_signed_tb,,,,,,,,
+C:/Xilinx/SST/week7/project_1/project_1.srcs/sim_1/new/mults_tb.v,1703079696,verilog,,,,mults_tb,,,,,,,,
+C:/Xilinx/SST/week7/project_1/project_1.srcs/sources_1/new/mults.v,1703361140,verilog,,C:/Xilinx/SST/week7/project_1/project_1.srcs/sim_1/new/mac_tb.v,,CLA;MAC;adderb;conv;multb;mults;mults_signed,,,,,,,,

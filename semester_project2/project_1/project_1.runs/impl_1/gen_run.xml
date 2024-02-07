@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1704549610">
+  <File Type="BITSTR-BMM" Name="detect_machine_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="detect_machine_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="detect_machine_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="detect_machine_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="detect_machine.tcl"/>
+  <File Type="OPT-TIMING" Name="detect_machine_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="detect_machine_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="detect_machine_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="detect_machine_reports.tcl"/>
+  <File Type="OPT-DRC" Name="detect_machine_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="detect_machine.hwdef"/>
+  <File Type="PWROPT-DCP" Name="detect_machine_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="detect_machine_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="detect_machine_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="detect_machine_placed.dcp"/>
+  <File Type="PLACE-IO" Name="detect_machine_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="detect_machine_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="detect_machine_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="detect_machine_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="detect_machine_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="detect_machine_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="detect_machine_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="detect_machine_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="detect_machine_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="detect_machine.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="detect_machine_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="detect_machine_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="detect_machine_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="detect_machine.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="detect_machine_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="detect_machine_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="detect_machine_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="detect_machine_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="detect_machine_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="detect_machine_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="detect_machine_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="detect_machine.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="detect_machine_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="detect_machine_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="detect_machine_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="detect_machine_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="detect_machine_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="detect_machine_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="detect_machine_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="detect_machine_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="detect_machine_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="detect_machine_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="detect_machine_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="detect_machine_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="detect_machine_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="detect_machine_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="detect_machine_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="detect_machine_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="detect_machine_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="detect_machine_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="detect_machine_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="detect_machine_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="detect_machine_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="detect_machine.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="detect_machine_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="detect_machine.rbt"/>
+  <File Type="BITSTR-NKY" Name="detect_machine.nky"/>
+  <File Type="PDI-FILE" Name="detect_machine.pdi"/>
+  <File Type="RCFI_FILE" Name="detect_machine.rcfi"/>
+  <File Type="CFI_FILE" Name="detect_machine.cfi"/>
+  <File Type="RNPI_FILE" Name="detect_machine.rnpi"/>
+  <File Type="NPI_FILE" Name="detect_machine.npi"/>
+  <File Type="RBD_FILE" Name="detect_machine.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="detect_machine.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="detect_machine.sysdef"/>
+  <File Type="BG-BGN" Name="detect_machine.bgn"/>
+  <File Type="BG-DRC" Name="detect_machine.drc"/>
+  <File Type="RDI-RDI" Name="detect_machine.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/top_mod.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="detect_machine"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../Nexys-A7-100T-Master .xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

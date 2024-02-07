@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SST/week3/project_1/project_1.sim/sim_1/synth/timing/xsim/experiment3_tb_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXOR
+INFO: [VRFC 10-311] analyzing module with_SSI
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SST/week3/experiment3_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module experiment3_tb

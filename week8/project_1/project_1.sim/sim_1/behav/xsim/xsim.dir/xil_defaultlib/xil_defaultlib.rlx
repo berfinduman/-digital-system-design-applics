@@ -1,0 +1,14 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Xilinx/SST/week8/project_1/project_1.ip_user_files/bd/bram1/ip/bram1_CONV128_0_0/sim/bram1_CONV128_0_0.v,1703965427,verilog,,C:/Xilinx/SST/week8/project_1/project_1.ip_user_files/bd/bram1/ip/bram1_output_control_0_0/sim/bram1_output_control_0_0.v,,bram1_CONV128_0_0,,,,,,,,
+C:/Xilinx/SST/week8/project_1/project_1.ip_user_files/bd/bram1/ip/bram1_blk_mem_gen_0_0/sim/bram1_blk_mem_gen_0_0.v,1703722795,verilog,,C:/Xilinx/SST/week8/project_1/project_1.ip_user_files/bd/bram1/ip/bram1_control_input_0_0/sim/bram1_control_input_0_0.v,,bram1_blk_mem_gen_0_0,,,,,,,,
+C:/Xilinx/SST/week8/project_1/project_1.ip_user_files/bd/bram1/ip/bram1_blk_mem_gen_1_0/sim/bram1_blk_mem_gen_1_0.v,1703698748,verilog,,C:/Xilinx/SST/week8/project_1/project_1.ip_user_files/bd/bram1/sim/bram1.v,,bram1_blk_mem_gen_1_0,,,,,,,,
+C:/Xilinx/SST/week8/project_1/project_1.ip_user_files/bd/bram1/ip/bram1_control_input_0_0/sim/bram1_control_input_0_0.v,1703965427,verilog,,C:/Xilinx/SST/week8/project_1/project_1.ip_user_files/bd/bram1/ip/bram1_CONV128_0_0/sim/bram1_CONV128_0_0.v,,bram1_control_input_0_0,,,,,,,,
+C:/Xilinx/SST/week8/project_1/project_1.ip_user_files/bd/bram1/ip/bram1_output_control_0_0/sim/bram1_output_control_0_0.v,1703965427,verilog,,C:/Xilinx/SST/week8/project_1/project_1.ip_user_files/bd/bram1/ip/bram1_blk_mem_gen_1_0/sim/bram1_blk_mem_gen_1_0.v,,bram1_output_control_0_0,,,,,,,,
+C:/Xilinx/SST/week8/project_1/project_1.ip_user_files/bd/bram1/sim/bram1.v,1703965426,verilog,,C:/Xilinx/SST/week8/project_1/project_1.srcs/sources_1/new/TOP.v,,bram1,,,,,,,,
+C:/Xilinx/SST/week8/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Xilinx/SST/week8/project_1/project_1.srcs/sim_1/new/top_tb.v,1703961301,verilog,,,,top_tb,,,,,,,,
+C:/Xilinx/SST/week8/project_1/project_1.srcs/sources_1/new/TOP.v,1703965346,verilog,,C:/Xilinx/SST/week8/project_1/project_1.srcs/sim_1/new/top_tb.v,,TOP,,,,,,,,
+C:/Xilinx/SST/week8/project_1/project_1.srcs/sources_1/new/exp_8.v,1703965375,verilog,,C:/Xilinx/SST/week8/project_1/project_1.ip_user_files/bd/bram1/ip/bram1_blk_mem_gen_0_0/sim/bram1_blk_mem_gen_0_0.v,,CONV;CONV128;MAC;MAC_Normalize;adderb;control_input;multb;output_control,,,,,,,,

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="conv_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="conv_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="6072fs"></ZoomStartTime>
+      <ZoomEndTime time="23986fs"></ZoomEndTime>
+      <Cursor1Time time="21000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="180"></NameColumnWidth>
+      <ValueColumnWidth column_width="85"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/conv_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conv_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conv_tb/data1" type="array">
+      <obj_property name="ElementShortName">data1[23:0]</obj_property>
+      <obj_property name="ObjectShortName">data1[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conv_tb/data2" type="array">
+      <obj_property name="ElementShortName">data2[23:0]</obj_property>
+      <obj_property name="ObjectShortName">data2[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conv_tb/data3" type="array">
+      <obj_property name="ElementShortName">data3[23:0]</obj_property>
+      <obj_property name="ObjectShortName">data3[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conv_tb/result" type="array">
+      <obj_property name="ElementShortName">result[19:0]</obj_property>
+      <obj_property name="ObjectShortName">result[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conv_tb/uut/mac1/data" type="array">
+      <obj_property name="ElementShortName">data[23:0]</obj_property>
+      <obj_property name="ObjectShortName">data[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conv_tb/uut/mac1/weight" type="array">
+      <obj_property name="ElementShortName">weight[23:0]</obj_property>
+      <obj_property name="ObjectShortName">weight[23:0]</obj_property>
+   </wvobject>
+</wave_config>

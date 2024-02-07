@@ -1,0 +1,75 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Dec 10 20:24:05 2023
+# Process ID: 15152
+# Current directory: C:/Xilinx/SST/semester_project/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6800 C:\Xilinx\SST\semester_project\project_1\project_1.xpr
+# Log file: C:/Xilinx/SST/semester_project/project_1/vivado.log
+# Journal file: C:/Xilinx/SST/semester_project/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Xilinx/SST/semester_project/project_1/project_1.xpr
+uupdate_compile_order -fileset sources_1launch_simulation
+launch_simulation
+set_property top testbench [get_filesets sim_1]
+launch_simulation
+reset_simulation -simset sim_1 -mode behavioral
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+set_property top cond_sum_tb [get_filesets sim_1]
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+reset_simulation -simset sim_1 -mode behavioral
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source cond_sum_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+synth_design -rtl -name rtl_1
+write_schematic -format pdf -orientation portrait C:/Xilinx/SST/semester_project/project_1/project_1.xpr/schematic.pdf
+write_schematic -format pdf -orientation portrait C:/Xilinx/SST/semester_project/project_1/project_1.xpr/schematic.pdf
+write_schematic -format pdf -orientation portrait C:/Xilinx/SST/semester_project/project_1/schematic.pdf
+close_sim
+launch_simulation
+source cond_sum_tb.tcl
+close_sim
+launch_simulation
+source cond_sum_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim

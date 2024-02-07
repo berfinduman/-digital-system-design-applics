@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Jan  6 17:00:53 2024
+# Process ID: 18348
+# Current directory: C:/Xilinx/SST/semester_project2/project_1/project_1.runs/impl_1
+# Command line: vivado.exe -log detect_machine.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source detect_machine.tcl -notrace
+# Log file: C:/Xilinx/SST/semester_project2/project_1/project_1.runs/impl_1/detect_machine.vdi
+# Journal file: C:/Xilinx/SST/semester_project2/project_1/project_1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source detect_machine.tcl -notrace

@@ -1,0 +1,408 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xE4E3117C60221457",
+      "device": "xc7a100tcsg324-1",
+      "name": "bram1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "blk_mem_gen_0": "",
+      "blk_mem_gen_1": "",
+      "CONV128_0": "",
+      "control_input_0": "",
+      "output_control_0": ""
+    },
+    "ports": {
+      "clka_0": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "reset_0",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "bram1_clka_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "reset_0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_LOW",
+            "value_src": "default"
+          }
+        }
+      },
+      "conv_run_0": {
+        "direction": "I"
+      },
+      "douta_0": {
+        "direction": "O",
+        "left": "1023",
+        "right": "0"
+      },
+      "wea_0": {
+        "direction": "I",
+        "left": "0",
+        "right": "0"
+      },
+      "conv_done_0": {
+        "direction": "O"
+      },
+      "wea_1": {
+        "direction": "I",
+        "left": "0",
+        "right": "0"
+      },
+      "ena_0": {
+        "direction": "I"
+      },
+      "kernel_0": {
+        "direction": "I",
+        "left": "80",
+        "right": "0"
+      }
+    },
+    "components": {
+      "blk_mem_gen_0": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "xci_name": "bram1_blk_mem_gen_0_0",
+        "parameters": {
+          "Coe_File": {
+            "value": "../../../../../../../../elo/project_1/image.coe"
+          },
+          "Enable_32bit_Address": {
+            "value": "false"
+          },
+          "Load_Init_File": {
+            "value": "true"
+          },
+          "Read_Width_A": {
+            "value": "1040"
+          },
+          "Register_PortA_Output_of_Memory_Primitives": {
+            "value": "false"
+          },
+          "Use_Byte_Write_Enable": {
+            "value": "false"
+          },
+          "Use_RSTA_Pin": {
+            "value": "false"
+          },
+          "Write_Depth_A": {
+            "value": "130"
+          },
+          "Write_Width_A": {
+            "value": "1040"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "blk_mem_gen_1": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "xci_name": "bram1_blk_mem_gen_1_0",
+        "parameters": {
+          "Enable_32bit_Address": {
+            "value": "false"
+          },
+          "Read_Width_A": {
+            "value": "1024"
+          },
+          "Register_PortA_Output_of_Memory_Primitives": {
+            "value": "false"
+          },
+          "Use_Byte_Write_Enable": {
+            "value": "false"
+          },
+          "Use_RSTA_Pin": {
+            "value": "false"
+          },
+          "Write_Depth_A": {
+            "value": "128"
+          },
+          "Write_Width_A": {
+            "value": "1024"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "CONV128_0": {
+        "vlnv": "xilinx.com:module_ref:CONV128:1.0",
+        "xci_name": "bram1_CONV128_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "CONV128",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "bram1_clka_0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "data": {
+            "direction": "I",
+            "left": "1039",
+            "right": "0"
+          },
+          "weight": {
+            "direction": "I",
+            "left": "26",
+            "right": "0"
+          },
+          "result": {
+            "direction": "O",
+            "left": "1023",
+            "right": "0"
+          }
+        }
+      },
+      "control_input_0": {
+        "vlnv": "xilinx.com:module_ref:control_input:1.0",
+        "xci_name": "bram1_control_input_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "control_input",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "bram1_clka_0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "conv_run": {
+            "direction": "I"
+          },
+          "kernel": {
+            "direction": "I",
+            "left": "80",
+            "right": "0"
+          },
+          "enable_ram": {
+            "direction": "O"
+          },
+          "address_ram": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "weight": {
+            "direction": "O",
+            "left": "26",
+            "right": "0"
+          }
+        }
+      },
+      "output_control_0": {
+        "vlnv": "xilinx.com:module_ref:output_control:1.0",
+        "xci_name": "bram1_output_control_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "output_control",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "bram1_clka_0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "data": {
+            "direction": "I",
+            "left": "1023",
+            "right": "0"
+          },
+          "conv_done": {
+            "direction": "O"
+          },
+          "ram_addres": {
+            "direction": "O",
+            "left": "6",
+            "right": "0"
+          },
+          "data_out": {
+            "direction": "O",
+            "left": "1023",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "control_input_0_address_ram": {
+        "ports": [
+          "control_input_0/address_ram",
+          "blk_mem_gen_0/addra"
+        ]
+      },
+      "control_input_0_weight": {
+        "ports": [
+          "control_input_0/weight",
+          "CONV128_0/weight"
+        ]
+      },
+      "blk_mem_gen_0_douta": {
+        "ports": [
+          "blk_mem_gen_0/douta",
+          "CONV128_0/data"
+        ]
+      },
+      "CONV128_0_result": {
+        "ports": [
+          "CONV128_0/result",
+          "output_control_0/data"
+        ]
+      },
+      "control_input_0_enable_ram": {
+        "ports": [
+          "control_input_0/enable_ram",
+          "blk_mem_gen_0/ena"
+        ]
+      },
+      "reset_0_1": {
+        "ports": [
+          "reset_0",
+          "CONV128_0/rst",
+          "control_input_0/reset",
+          "output_control_0/reset"
+        ]
+      },
+      "conv_run_0_1": {
+        "ports": [
+          "conv_run_0",
+          "control_input_0/conv_run"
+        ]
+      },
+      "output_control_0_data_out": {
+        "ports": [
+          "output_control_0/data_out",
+          "blk_mem_gen_1/dina"
+        ]
+      },
+      "blk_mem_gen_1_douta": {
+        "ports": [
+          "blk_mem_gen_1/douta",
+          "douta_0"
+        ]
+      },
+      "wea_0_1": {
+        "ports": [
+          "wea_0",
+          "blk_mem_gen_0/wea"
+        ]
+      },
+      "output_control_0_conv_done": {
+        "ports": [
+          "output_control_0/conv_done",
+          "conv_done_0"
+        ]
+      },
+      "wea_1_1": {
+        "ports": [
+          "wea_1",
+          "blk_mem_gen_1/wea"
+        ]
+      },
+      "ena_0_1": {
+        "ports": [
+          "ena_0",
+          "blk_mem_gen_1/ena"
+        ]
+      },
+      "clka_0_1": {
+        "ports": [
+          "clka_0",
+          "blk_mem_gen_1/clka",
+          "blk_mem_gen_0/clka",
+          "CONV128_0/clk",
+          "control_input_0/clk",
+          "output_control_0/clk"
+        ]
+      },
+      "output_control_0_ram_addres": {
+        "ports": [
+          "output_control_0/ram_addres",
+          "blk_mem_gen_1/addra"
+        ]
+      },
+      "kernel_0_1": {
+        "ports": [
+          "kernel_0",
+          "control_input_0/kernel"
+        ]
+      }
+    }
+  }
+}

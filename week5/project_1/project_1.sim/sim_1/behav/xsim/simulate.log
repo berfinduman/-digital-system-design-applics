@@ -1,0 +1,38 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module bram_tb.uut.bram_inst.blk_mem_gen_0.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+                   0ADDR=0000 , DOUT=00000000
+                  20ADDR=0001 , DOUT=00000000
+                  30ADDR=0001 , DOUT=00000100
+                  40ADDR=0010 , DOUT=00000100
+                  50ADDR=0010 , DOUT=00000000
+                  60ADDR=0011 , DOUT=00000000
+                  70ADDR=0011 , DOUT=00000001
+                  80ADDR=0100 , DOUT=00000001
+                  90ADDR=0100 , DOUT=00001001
+                 100ADDR=0101 , DOUT=00001001
+                 110ADDR=0101 , DOUT=00000000
+                 120ADDR=0110 , DOUT=00000000
+                 130ADDR=0110 , DOUT=00000001
+                 140ADDR=0111 , DOUT=00000001
+                 150ADDR=0111 , DOUT=00000000
+                 160ADDR=1000 , DOUT=00000000
+                 170ADDR=1000 , DOUT=00001000
+                 180ADDR=1001 , DOUT=00001000
+                 190ADDR=1001 , DOUT=00000100
+                 200ADDR=1010 , DOUT=00000100
+                 210ADDR=1010 , DOUT=00000000
+                 220ADDR=1011 , DOUT=00000000
+                 230ADDR=1011 , DOUT=00000001
+                 240ADDR=1100 , DOUT=00000001
+                 250ADDR=1100 , DOUT=00001001
+                 260ADDR=1101 , DOUT=00001001
+                 270ADDR=1101 , DOUT=00000000
+                 280ADDR=1110 , DOUT=00000000
+                 290ADDR=1110 , DOUT=00000001
+                 300ADDR=1111 , DOUT=00000001
+                 310ADDR=1111 , DOUT=00000000
+                 330ADDR=1111 , DOUT=00001000
+$finish called at time : 340 ns : File "C:/Xilinx/SST/week5/project_1/project_1.srcs/sim_1/new/bram_tb.v" Line 28

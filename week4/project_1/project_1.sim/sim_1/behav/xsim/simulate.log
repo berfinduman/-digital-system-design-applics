@@ -1,0 +1,8 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+{X+ Y ,C_i}=1101 + 0110, Ci= 0 => {C_o,S} = 10011 -- TRUE
+{X+ Y ,C_i}=1110 + 1010, Ci= 0 => {C_o,S} = 11000 -- TRUE
+{X+ Y ,C_i}=1011 + 1110, Ci= 0 => {C_o,S} = 11001 -- TRUE
+{X+ Y ,C_i}=0111 + 1000, Ci= 0 => {C_o,S} = 01111 -- TRUE
+{X+ Y ,C_i}=0101 + 1010, Ci= 0 => {C_o,S} = 01111 -- TRUE
+$finish called at time : 250 ns : File "C:/Xilinx/SST/week4/project_1/project_1.srcs/sim_1/new/rpa_tb.v" Line 68

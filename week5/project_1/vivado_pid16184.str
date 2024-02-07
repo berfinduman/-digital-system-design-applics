@@ -1,0 +1,122 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 16184
+License: Customer
+
+Current time: 	Wed Dec 27 20:57:43 EET 2023
+Time zone: 	Eastern European Time (Asia/Istanbul)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	berfi
+User home directory: C:/Users/berfi
+User working directory: C:/Xilinx/SST/week5/project_1
+User country: 	TR
+User language: 	tr
+User locale: 	tr_TR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.1
+RDI_DATADIR: C:/Xilinx/Vivado/2020.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/berfi/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/berfi/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/berfi/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Xilinx/SST/week5/project_1/vivado.log
+Vivado journal file location: 	C:/Xilinx/SST/week5/project_1/vivado.jou
+Engine tmp dir: 	C:/Xilinx/SST/week5/project_1/.Xil/Vivado-16184-DESKTOP-K70G1M4
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.1
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,007 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: C:\Xilinx\SST\week5\project_1\project_1.xpr. Version: Vivado v2020.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Xilinx/SST/week5/project_1/project_1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,007 MB. GUI used memory: 55 MB. Current time: 12/27/23, 8:57:44 PM EET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 74 MB (+75193kb) [00:00:12]
+// [Engine Memory]: 1,007 MB (+904649kb) [00:00:12]
+// [GUI Memory]: 96 MB (+19159kb) [00:00:13]
+// [GUI Memory]: 107 MB (+6761kb) [00:00:14]
+// WARNING: HEventQueue.dispatchEvent() is taking  2979 ms.
+// Tcl Message: open_project C:/Xilinx/SST/week5/project_1/project_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 1027.508 ; gain = 0.000 
+// Project name: project_1; location: C:/Xilinx/SST/week5/project_1; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bz (cs)
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [GUI Memory]: 121 MB (+8555kb) [00:00:19]
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 131 MB (+3913kb) [00:00:48]
+// [GUI Memory]: 140 MB (+2536kb) [00:01:02]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,007 MB. GUI used memory: 73 MB. Current time: 12/27/23, 9:27:45 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,007 MB. GUI used memory: 64 MB. Current time: 12/27/23, 9:57:45 PM EET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,007 MB. GUI used memory: 65 MB. Current time: 12/27/23, 10:27:45 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,007 MB. GUI used memory: 65 MB. Current time: 12/27/23, 10:57:46 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,007 MB. GUI used memory: 64 MB. Current time: 12/27/23, 11:27:46 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,007 MB. GUI used memory: 65 MB. Current time: 12/27/23, 11:57:46 PM EET

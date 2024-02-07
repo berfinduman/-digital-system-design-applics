@@ -1,0 +1,7 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Xilinx/SSTU/week3/experiment3_tb.v,1700035416,verilog,,,,experiment3_tb,,,,,,,,
+C:/Xilinx/SSTU/week3/project_1/project_1.sim/sim_1/impl/timing/xsim/experiment3_tb_time_impl.v,1700052481,verilog,,C:/Xilinx/SSTU/week3/experiment3_tb.v,,EXOR;glbl;with_SSI,,,,,,,,
+C:/Xilinx/SSTU/week3/project_1/project_1.srcs/sources_1/imports/SST/week2/project_1/project_1.srcs/sources_1/new/MSI_Library.v,1699992948,verilog,,C:/Xilinx/SSTU/week3/project_1/project_1.srcs/sources_1/imports/SST/week1/all_libs/project_2.srcs/sources_1/new/SSI_Library.v,,DECODER;DEMULTIPLEXER;ENCODER;MULTIPLEXER,,,,,,,,

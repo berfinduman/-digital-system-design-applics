@@ -1,0 +1,178 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Nov 16 08:49:38 2023
+# Process ID: 9140
+# Current directory: C:/Xilinx/SST/week3/project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5272 C:\Xilinx\SST\week3\project_2\project_1.xpr
+# Log file: C:/Xilinx/SST/week3/project_2/vivado.log
+# Journal file: C:/Xilinx/SST/week3/project_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Xilinx/SST/week3/project_2/project_1.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Xilinx/SSTU/week3/project_1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 1024.871 ; gain = 0.000
+update_compile_order -fileset sources_1
+set_property top with_decoder [current_fileset]
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/SST/week3/project_2/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'experiment3_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Xilinx/SST/week3/project_2/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj experiment3_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SST/week3/project_2/project_1.srcs/sources_1/imports/SST/week2/project_1/project_1.srcs/sources_1/new/MSI_Library.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DEMULTIPLEXER
+INFO: [VRFC 10-311] analyzing module MULTIPLEXER
+INFO: [VRFC 10-311] analyzing module ENCODER
+INFO: [VRFC 10-311] analyzing module DECODER
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SST/week3/project_2/project_1.srcs/sources_1/imports/SST/week1/all_libs/project_2.srcs/sources_1/new/SSI_Library.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND
+INFO: [VRFC 10-311] analyzing module OR
+INFO: [VRFC 10-311] analyzing module NOT
+INFO: [VRFC 10-311] analyzing module NAND
+INFO: [VRFC 10-311] analyzing module NOR
+INFO: [VRFC 10-311] analyzing module EXOR
+INFO: [VRFC 10-311] analyzing module EXNOR
+INFO: [VRFC 10-311] analyzing module TRI
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SST/week3/project_2/project_1.srcs/sources_1/new/three_different_methods.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module with_SSI
+INFO: [VRFC 10-311] analyzing module with_decoder
+INFO: [VRFC 10-311] analyzing module with_MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SST/week3/experiment3_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module experiment3_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SST/week3/project_2/project_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Xilinx/SST/week3/project_2/project_1.sim/sim_1/behav/xsim'
+"xelab -wto 7da427d3a7294469bb305358ef1d196f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot experiment3_tb_behav xil_defaultlib.experiment3_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 7da427d3a7294469bb305358ef1d196f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot experiment3_tb_behav xil_defaultlib.experiment3_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DECODER
+Compiling module xil_defaultlib.OR
+Compiling module xil_defaultlib.with_decoder
+Compiling module xil_defaultlib.experiment3_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot experiment3_tb_behav
+
+****** Webtalk v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Xilinx/SST/week3/project_2/project_1.sim/sim_1/behav/xsim/xsim.dir/experiment3_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Nov 16 08:52:19 2023...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1024.871 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Xilinx/SST/week3/project_2/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "experiment3_tb_behav -key {Behavioral:sim_1:Functional:experiment3_tb} -tclbatch {experiment3_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source experiment3_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+{a,b,c,d}=0000 => {f3,f2,f1,f0} = 0000 -- TRUE
+{a,b,c,d}=0001 => {f3,f2,f1,f0} = 0000 -- TRUE
+{a,b,c,d}=0010 => {f3,f2,f1,f0} = 0000 -- TRUE
+{a,b,c,d}=0011 => {f3,f2,f1,f0} = 0000 -- TRUE
+{a,b,c,d}=0100 => {f3,f2,f1,f0} = 0000 -- TRUE
+{a,b,c,d}=0101 => {f3,f2,f1,f0} = 0001 -- TRUE
+{a,b,c,d}=0110 => {f3,f2,f1,f0} = 0010 -- TRUE
+{a,b,c,d}=0111 => {f3,f2,f1,f0} = 0011 -- TRUE
+{a,b,c,d}=1000 => {f3,f2,f1,f0} = 0000 -- TRUE
+{a,b,c,d}=1001 => {f3,f2,f1,f0} = 0010 -- TRUE
+{a,b,c,d}=1010 => {f3,f2,f1,f0} = 0100 -- TRUE
+{a,b,c,d}=1011 => {f3,f2,f1,f0} = 0110 -- TRUE
+{a,b,c,d}=1100 => {f3,f2,f1,f0} = 0000 -- TRUE
+{a,b,c,d}=1101 => {f3,f2,f1,f0} = 0011 -- TRUE
+{a,b,c,d}=1110 => {f3,f2,f1,f0} = 0110 -- TRUE
+{a,b,c,d}=1111 => {f3,f2,f1,f0} = 1001 -- TRUE
+$finish called at time : 800 ns : File "C:/Xilinx/SST/week3/experiment3_tb.v" Line 52
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'experiment3_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1024.871 ; gain = 0.000
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: with_decoder
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1444.684 ; gain = 234.191
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'with_decoder' [C:/Xilinx/SST/week3/project_2/project_1.srcs/sources_1/new/three_different_methods.v:22]
+INFO: [Synth 8-6157] synthesizing module 'DECODER' [C:/Xilinx/SST/week3/project_2/project_1.srcs/sources_1/imports/SST/week2/project_1/project_1.srcs/sources_1/new/MSI_Library.v:119]
+INFO: [Synth 8-226] default block is never used [C:/Xilinx/SST/week3/project_2/project_1.srcs/sources_1/imports/SST/week2/project_1/project_1.srcs/sources_1/new/MSI_Library.v:125]
+INFO: [Synth 8-6155] done synthesizing module 'DECODER' (1#1) [C:/Xilinx/SST/week3/project_2/project_1.srcs/sources_1/imports/SST/week2/project_1/project_1.srcs/sources_1/new/MSI_Library.v:119]
+INFO: [Synth 8-6157] synthesizing module 'OR' [C:/Xilinx/SST/week3/project_2/project_1.srcs/sources_1/imports/SST/week1/all_libs/project_2.srcs/sources_1/new/SSI_Library.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'OR' (2#1) [C:/Xilinx/SST/week3/project_2/project_1.srcs/sources_1/imports/SST/week1/all_libs/project_2.srcs/sources_1/new/SSI_Library.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'with_decoder' (3#1) [C:/Xilinx/SST/week3/project_2/project_1.srcs/sources_1/new/three_different_methods.v:22]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1494.273 ; gain = 283.781
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1518.133 ; gain = 307.641
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1518.133 ; gain = 307.641
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1518.133 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Xilinx/SST/week3/Nexys-A7-100T-Master.xdc]
+Finished Parsing XDC File [C:/Xilinx/SST/week3/Nexys-A7-100T-Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1585.906 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 1626.973 ; gain = 416.480
+11 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1626.973 ; gain = 602.102
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Xilinx/SST/week3/project_2/project_1.runs/synth_1
+
+launch_runs impl_1 -jobs 6
+[Thu Nov 16 09:14:58 2023] Launched synth_1...
+Run output will be captured here: C:/Xilinx/SST/week3/project_2/project_1.runs/synth_1/runme.log
+[Thu Nov 16 09:14:58 2023] Launched impl_1...
+Run output will be captured here: C:/Xilinx/SST/week3/project_2/project_1.runs/impl_1/runme.log

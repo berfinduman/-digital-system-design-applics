@@ -1,0 +1,7 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+{X,Y}=00 => {C_o,S} = 00 -- TRUE
+{X,Y}=01 => {C_o,S} = 01 -- TRUE
+{X,Y}=10 => {C_o,S} = 01 -- TRUE
+{X,Y}=11 => {C_o,S} = 10 -- TRUE
+$finish called at time : 200 ns : File "C:/Xilinx/SST/week4/project_1/project_1.srcs/sim_1/new/ha_tb.v" Line 24
